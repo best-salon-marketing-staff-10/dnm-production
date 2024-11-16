@@ -1,0 +1,79 @@
+[debug] [2024-11-10T15:29:17.870Z] ----------------------------------------------------------------------
+[debug] [2024-11-10T15:29:17.872Z] Command:       E:\App\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-11-10T15:29:17.872Z] CLI Version:   13.24.2
+[debug] [2024-11-10T15:29:17.872Z] Platform:      win32
+[debug] [2024-11-10T15:29:17.872Z] Node Version:  v20.12.2
+[debug] [2024-11-10T15:29:17.872Z] Time:          Sun Nov 10 2024 22:29:17 GMT+0700 (Indochina Time)
+[debug] [2024-11-10T15:29:17.873Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-10T15:29:17.924Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-10T15:29:17.925Z] > authorizing via signed-in user (dohieu11092001@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  E:\1. Website\Những tiệm đang có việc cần làm\uk-exeter-princess-nails-and-spa
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-11-10T15:30:31.493Z] Using project from CLI flag: princess-nails-exeter
+[debug] [2024-11-10T15:30:31.494Z] Checked if tokens are valid: true, expires at: 1731256147625
+[debug] [2024-11-10T15:30:31.494Z] Checked if tokens are valid: true, expires at: 1731256147625
+[debug] [2024-11-10T15:30:31.495Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/princess-nails-exeter [none]
+[debug] [2024-11-10T15:30:31.968Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/princess-nails-exeter 403
+[debug] [2024-11-10T15:30:31.968Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/princess-nails-exeter {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-11-10T15:30:31.968Z] Request to https://firebase.googleapis.com/v1beta1/projects/princess-nails-exeter had HTTP Error: 403, The caller does not have permission
+[debug] [2024-11-10T15:30:32.208Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/princess-nails-exeter had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project princess-nails-exeter. Please make sure the project exists and your account has permission to access it.
+[debug] [2024-11-10T15:32:33.750Z] ----------------------------------------------------------------------
+[debug] [2024-11-10T15:32:33.752Z] Command:       E:\App\node.exe C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js deploy --only hosting:dnm-production
+[debug] [2024-11-10T15:32:33.753Z] CLI Version:   13.24.2
+[debug] [2024-11-10T15:32:33.753Z] Platform:      win32
+[debug] [2024-11-10T15:32:33.753Z] Node Version:  v20.12.2
+[debug] [2024-11-10T15:32:33.753Z] Time:          Sun Nov 10 2024 22:32:33 GMT+0700 (Indochina Time)
+[debug] [2024-11-10T15:32:33.753Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-11-10T15:32:33.804Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-11-10T15:32:33.804Z] > authorizing via signed-in user (dohieu11092001@gmail.com)
+[debug] [2024-11-10T15:32:33.804Z] [iam] checking project princess-nails-exeter for permissions ["firebase.projects.get","firebasehosting.sites.update"]
+[debug] [2024-11-10T15:32:33.805Z] Checked if tokens are valid: true, expires at: 1731256147625
+[debug] [2024-11-10T15:32:33.805Z] Checked if tokens are valid: true, expires at: 1731256147625
+[debug] [2024-11-10T15:32:33.806Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/princess-nails-exeter:testIamPermissions [none]
+[debug] [2024-11-10T15:32:33.806Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/princess-nails-exeter:testIamPermissions x-goog-quota-user=projects/princess-nails-exeter
+[debug] [2024-11-10T15:32:33.806Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/princess-nails-exeter:testIamPermissions {"permissions":["firebase.projects.get","firebasehosting.sites.update"]}
+[debug] [2024-11-10T15:32:34.867Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/princess-nails-exeter:testIamPermissions 200
+[debug] [2024-11-10T15:32:34.867Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/princess-nails-exeter:testIamPermissions {}
+[debug] [2024-11-10T15:32:34.867Z] [iam] error while checking permissions, command may fail: FirebaseError: Authorization failed. This account is missing the following required permissions on project princess-nails-exeter:
+
+  firebase.projects.get
+  firebasehosting.sites.update
+[debug] [2024-11-10T15:32:34.868Z] Checked if tokens are valid: true, expires at: 1731256147625
+[debug] [2024-11-10T15:32:34.868Z] Checked if tokens are valid: true, expires at: 1731256147625
+[debug] [2024-11-10T15:32:34.868Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/princess-nails-exeter [none]
+[debug] [2024-11-10T15:32:35.268Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/princess-nails-exeter 403
+[debug] [2024-11-10T15:32:35.268Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/princess-nails-exeter {"error":{"code":403,"message":"The caller does not have permission","status":"PERMISSION_DENIED"}}
+[debug] [2024-11-10T15:32:35.268Z] Request to https://firebase.googleapis.com/v1beta1/projects/princess-nails-exeter had HTTP Error: 403, The caller does not have permission
+[debug] [2024-11-10T15:32:35.383Z] FirebaseError: Request to https://firebase.googleapis.com/v1beta1/projects/princess-nails-exeter had HTTP Error: 403, The caller does not have permission
+    at responseToError (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\responseToError.js:52:12)
+    at RetryOperation._fn (C:\Users\pc\AppData\Roaming\npm\node_modules\firebase-tools\lib\apiv2.js:312:77)
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+[error] 
+[error] Error: Failed to get Firebase project princess-nails-exeter. Please make sure the project exists and your account has permission to access it.

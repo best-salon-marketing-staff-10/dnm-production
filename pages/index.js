@@ -71,15 +71,7 @@ export default function Home() {
           <div className="page-container">
             <div className="page-nav-bar">
               <div className="page-top-bar">
-                <div className="page-mobile-top-bar">
-                  <MobileTopBar />
-                </div>
-                <div className="page-tablet-top-bar">
-                  <TabletTopBar />
-                </div>
-                <div className="page-desktop-top-bar">
-                  <DesktopTopBar />
-                </div>
+                
               </div>
               <div className="page-nav-bar">
                 <div className="page-mobile-nav-bar">
@@ -93,9 +85,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="page-bottom-nav-bar">
-                <div className="mobile-bottom-nav-bar">
-                  <MobileBottomNavBar />
-                </div>
+                
               </div>
             </div>
             <div className="page-content">
@@ -110,15 +100,7 @@ export default function Home() {
               </div>
             </div>
             <div className="page-footer">
-              <div className="page-desktop-footer">
-                <DesktopFooter />
-              </div>
-              <div className="page-mobile-footer">
-                <MobileFooter />
-              </div>
-              <div className="page-tablet-footer">
-                <TabletFooter />
-              </div>
+              
             </div>  
           </div>
 

@@ -41,7 +41,7 @@
     padding-right: 0px;
   }
   .page-content{
-    background-color: #FFFFFF;
+    background-color: #111111;
   }
 
 /*
@@ -598,11 +598,10 @@
   /*Thanh nav bar, dùng chung cho cả 3 giao diện, nội dung của chúng chỉ khác nhau ở chỗ trỏ đến link id khác nhau để đảm bảo trải nghiệm trơn mượt khi chọn dịch vụ qua thanh nav bar
   */
     .nav-bar{
-      display: grid; 
-      grid-template-columns: 3fr 1fr;
-      margin-top: 10px;
-      margin-bottom: 10px;
-      margin-left: 10px;
+      color: #ffffff;
+      display: grid;
+      grid-template-columns: 4fr 1fr; 
+      background-color: #0e171c;
     }            
     .nav-bar-menu{
         margin: auto;
@@ -639,6 +638,48 @@
         margin-bottom: 10px;
         font-size: 25px;
     }
+    .nav-bar-left{
+      display: flex;
+      max-width: 80%;
+      margin: auto;
+    }
+    .component{
+      margin-left: 50px;
+      margin-top: 19px;
+      font-size: 19px;
+      color: #ffffff;
+      text-decoration: none;
+    }
+    .component-2{
+      margin-left: 50px;
+      margin-top: 15px;
+      font-size: 19px;
+      background-color: #ff7629;
+      width: max-content;
+      height: max-content;
+      padding: 5px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 50px;
+    }
+    .nd{
+      text-decoration: none;
+      color: #ffffff;
+    }
+    .nd:hover{
+      color: #8c9093;
+    }
+    .nd-2{
+      text-decoration: none;
+      color: #ffffff;
+    }
+    .nd-2:hover{
+      color: #8c9093;
+    }
+    .component-2:hover{
+      background-color: #9f5024;
+    }
+    
   
   /*Logo trong thanh nav-bar
   */
@@ -655,6 +696,7 @@
       max-width: 60px;
       padding-left: 0px;
       margin-left: 0px;
+
     }
     .logo-text{
       line-height: 15px;
@@ -662,8 +704,9 @@
       margin-left: 10px;
     }
     .logo-text-1{
+      color: #ffffff;
       letter-spacing: 4px;
-      font-size: 16px;
+      font-size: 25px;
       margin-bottom: 0px;
       font-weight: 500;
     }

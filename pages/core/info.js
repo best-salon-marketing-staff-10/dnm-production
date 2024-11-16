@@ -96,13 +96,13 @@ const processedBusinessOpeningTime = {
 
 
 const changedInfo = {
-  businessName: "Princess Nails Exeter",
-  businessAddressLevel1: "95 Fore St",
-  businessAddressLevel2: "Exeter",
-  businessAddressLevel3: "Devon",
-  businessAddressLevel4: "England",
-  businessCountry: "United Kingdom",
-  businessGeoRegionCode: "GB",
+  businessName: "DnM",
+  businessAddressLevel1: "",
+  businessAddressLevel2: "",
+  businessAddressLevel3: "",
+  businessAddressLevel4: "",
+  businessCountry: "",
+  businessGeoRegionCode: "",
 
   //Tra cứu tên thành phố trong https://www.geonames.org/GB/administrative-division-united-kingdom.html và điền vào mã code tương ứng
   businessAddressDivisionCode: "DEV",
@@ -134,7 +134,7 @@ const changedInfo = {
   // Các ảnh của tiệm
   ogImage:"https://princess-nails-exeter.web.app/images/desktop-nail-salon-happy-customer-1.jpg",
   icon:"/icon2.png",
-  businessLogo:"/logo3.jpg",
+  businessLogo:"/logo.png",
 }
 
 const menu = {
