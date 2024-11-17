@@ -512,6 +512,20 @@
       display:grid;
       grid-template-columns: 1fr 1fr;
     }
+
+    .desktop-content{
+      background-image: url(/static/assets/Frame-316128559-19.a98f688.jpg);
+      height: 1000px;
+    }
+
+    .dv{
+      padding-top: 30px;
+    }
+
+    .khoi{
+      max-width: 480px;
+
+    }
   }
   
 /*

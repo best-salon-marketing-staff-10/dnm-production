@@ -21,12 +21,29 @@ import { imageAlt } from '/pages/core/info';
 import { pageContent } from '/pages/core/info';
 import { images } from '/pages/core/info';
 
-export default function DesktopContent(){
-    return(
+export default function DesktopContent() {
+    return (
         <>
             <div className="desktop-content">
+                <div className="dv">
+                    <div className="khoi">
+                        <img src="/images/gel-nails-shellac-nails-3.jpg" width="300px"/>
+                        <p className="content">
+                            "FL Studio means everything to my productions. It’s the only program I didn’t get bored of."
+                            <br />
+                            <span className="name">
+                                WondaGurl
+                            </span>
+                        </p>
 
-                
+                    </div>
+                    <div className="">
+
+                    </div>
+                    <div className="">
+
+                    </div>
+                </div>
             </div>
 
         </>
