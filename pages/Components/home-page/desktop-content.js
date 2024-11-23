@@ -26,21 +26,37 @@ export default function DesktopContent() {
         <>
             <div className="desktop-content">
                 <div className="dv">
-                    <div className="khoi">
-                        <img src="/images/gel-nails-shellac-nails-3.jpg" width="300px"/>
+                    <div className="khoi-left">
+                        <img className="anh" src="logo.png" width="150px" />
                         <p className="content">
-                            "FL Studio means everything to my productions. It’s the only program I didn’t get bored of."
+                            FL STUDIO
                             <br />
-                            <span className="name">
-                                WondaGurl
+                            <span className="description-left">
+                                SIGNATURE BUNDLE
                             </span>
                         </p>
 
                     </div>
-                    <div className="">
+                    <div className="khoi-center">
+                        <img className="anh-2" src="logo.png" width="200px" />
+                        <p className="content">
+                            FL STUDIO
+                            <br />
+                            <span className="description-center">
+                                ALL PLUGINS EDITION
+                            </span>
+                        </p>
 
                     </div>
-                    <div className="">
+                    <div className="khoi-right">
+                        <img className="anh" src="/logo.png" width="150px" />
+                        <p className="content">
+                            FL STUDIO
+                            <br />
+                            <span className="description-right">
+                                PRODUCER EDITION
+                            </span>
+                        </p>
 
                     </div>
                 </div>
