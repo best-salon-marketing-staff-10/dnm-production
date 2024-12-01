@@ -25,6 +25,9 @@ export default function DesktopContent() {
     return (
         <>
             <div className="desktop-content">
+                <div className="desktop-title-1">
+                    The Daw we use
+                </div>
                 <div className="dv">
                     <div className="khoi-left">
                         <img className="anh" src="logo.png" width="150px" />
@@ -57,8 +60,22 @@ export default function DesktopContent() {
                                 PRODUCER EDITION
                             </span>
                         </p>
-
                     </div>
+                </div>
+                <div className="desktop-title-2">
+                    Free Cymatics Starter Pack
+                </div>
+                <div className="cymatics">
+                    <div className="cymatic-1">
+                        <img src="https://cymatics.fm/cdn/shop/products/House_16bba520-71a1-405f-ab4f-3ee7b9859866_940x1530.png?v=1571716128" width="200px" />
+                    </div>
+                    <div className="cymatic-2">
+                        <img src="https://cymatics.fm/cdn/shop/products/min-free-trap-starter-pack_940x1530.png?v=1618931511" width="200px" />
+                    </div>
+                    <div className="cymatic-3">
+                        <img src="https://cdn.shopify.com/s/files/1/0129/7698/0032/files/Paradox_1.webp?v=1683645613" width="200px" />
+                    </div>
+
                 </div>
             </div>
 

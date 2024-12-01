@@ -516,7 +516,23 @@
     .desktop-content{
       width: 1000px;
       margin: auto;
-      height: 849px;
+      padding-bottom: 30px;
+    }
+
+    .desktop-title-1{
+      color: #ffffff;
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+      padding-top: 20px;
+    }
+
+    .desktop-title-2{
+      color: #ffffff;
+      text-align: center;
+      font-size: 40px;
+      font-weight: bold;
+      padding-top: 50px;
     }
 
     .dv{
@@ -630,6 +646,12 @@
 
     .anh-2{
       margin-top: 30px;
+    }
+
+    .cymatics{
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      margin-top: 40px;
     }
   }
   

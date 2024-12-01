@@ -96,7 +96,7 @@ const processedBusinessOpeningTime = {
 
 
 const changedInfo = {
-  businessName: "DnM",
+  businessName: "DNM",
   businessAddressLevel1: "",
   businessAddressLevel2: "",
   businessAddressLevel3: "",
