@@ -653,6 +653,10 @@
       grid-template-columns: 1fr 1fr 1fr;
       margin-top: 40px;
     }
+
+    .video{
+      margin-top: 100px;
+    }
   }
   
 /*

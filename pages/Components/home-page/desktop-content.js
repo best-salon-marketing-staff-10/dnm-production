@@ -73,9 +73,20 @@ export default function DesktopContent() {
                         <img src="https://cymatics.fm/cdn/shop/products/min-free-trap-starter-pack_940x1530.png?v=1618931511" width="200px" />
                     </div>
                     <div className="cymatic-3">
-                        <img src="https://cdn.shopify.com/s/files/1/0129/7698/0032/files/Paradox_1.webp?v=1683645613" width="200px" />
+                        <img src="//cymatics.fm/cdn/shop/products/new-cobra_940x1530.png?v=1591646132" width="180px" />
                     </div>
 
+                </div>
+                <div className="video">
+                    <iframe 
+                    src="https://www.youtube.com/embed/YNgHtG5arXo" 
+                    width="1920" 
+                    height="500" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                    >
+
+                    </iframe>
                 </div>
             </div>
 
