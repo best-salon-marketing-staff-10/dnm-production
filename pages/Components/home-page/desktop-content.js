@@ -78,12 +78,16 @@ export default function DesktopContent() {
 
                 </div>
                 <div className="video">
-                    <iframe 
-                    src="https://www.youtube.com/embed/YNgHtG5arXo" 
-                    width="1920" 
-                    height="500" 
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowFullScreen
+                    <div className="desktop-title-2">
+                        Our lesson sample
+                    </div>
+                    <iframe
+                        className="iframe"
+                        src="https://www.youtube.com/embed/YNgHtG5arXo"
+                        width="1920"
+                        height="500"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowFullScreen
                     >
 
                     </iframe>
